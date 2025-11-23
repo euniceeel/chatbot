@@ -16,12 +16,6 @@ def get_reply(message):
     elif "cat" == message:
         img_url = get_cat_image_url()
         return ("image", img_url)
-    elif "does yejin have huzz?" in message:
-        return ("text", "YESYESYESYESYESYESYESYESYESYESYESYESYESYES")
-    elif "jayden tung" in message:
-        return("text", "is a femboy")
-    elif "jianna's boyfriend" in message:
-        return("text", "nolan neilson") 
     else:
         return ("text", "아직 무슨 말인지 모르겠어.")
     
